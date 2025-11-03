@@ -1,7 +1,7 @@
 
 
 # TrustGraph RAG — Verifiable Finance Copilot (Free Stack)
-![alt text](image.png)
+![alt text](image-1.png)
 Ask finance questions about public companies and get **verifiable answers** with **executable SQL citations**—grounded in SEC filings (10-K / 10-Q) **text + tables**.
 
 **Stack:** Groq (LLM) · DuckDB (tables) · FAISS + BM25 (hybrid retrieval) · Sentence-Transformers (embeddings) · Streamlit (UI) · `uv` (env & runner)
