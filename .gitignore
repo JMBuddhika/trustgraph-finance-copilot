@@ -1,0 +1,31 @@
+# Python / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+.dist/
+.pytest_cache/
+
+# venv / uv
+.venv/
+.uv/
+
+# Secrets
+.env
+
+# Data (keep small seeds, ignore big/generated artifacts)
+data/raw/**
+data/cache/**
+data/index/**
+data/sql/*.duckdb
+!data/sql/seed.sql
+!data/README_DATA.md
+!data/processed/corpus.jsonl
+
+# Streamlit
+.streamlit/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
